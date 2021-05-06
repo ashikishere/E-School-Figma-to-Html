@@ -1,0 +1,356 @@
+/* Comon style for all */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif !important;
+  /* background: #e5e5e5; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif !important;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header section design */
+
+.main-header {
+  width: 100%;
+  background: #f0fff0;
+}
+
+.navbar .navbar-brand img {
+  width: 198.07px;
+}
+
+.main-header .bg-light {
+  background-color: transparent !important;
+}
+
+.main-header .navbar-light .navbar-nav .nav-link {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.main-header .navbar-light .navbar-nav .nav-link.active {
+  color: #21b573;
+}
+
+.main-header .navbar-light .navbar-nav .nav-link:hover,
+.main-header .navbar-light .navbar-nav .nav-link:focus {
+  color: #21b573;
+}
+
+.main-header .navbar-light .navbar-nav .btn-info {
+  padding: 8px 20px;
+  background: #21b573;
+  border-radius: 33px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #21b573;
+  margin-left: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+
+.main-header .navbar-light .navbar-nav .btn-info:hover,
+.main-header .navbar-light .navbar-nav .btn-info:focus {
+  color: #21b573;
+  background: transparent;
+}
+
+/* Banner section design */
+
+.banner {
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.inner-banner {
+  width: 100%;
+  padding: 30px 0px 20px;
+}
+
+.inner-banner h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fd511a;
+}
+.inner-banner h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 70px;
+  color: #000000;
+}
+
+.inner-banner h2 span {
+  color: #21b573;
+}
+.inner-banner p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  color: #6c6b6b;
+}
+.inner-banner .btn-info {
+  padding: 12px 36px;
+  background: #21b573;
+  border-radius: 33px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #000000;
+  color: #fff;
+  text-transform: capitalize;
+  transition: 0.5s;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.inner-banner .btn-info:hover,
+.inner-banner .btn-info:focus {
+  color: #21b573;
+  background: transparent;
+  border: 1px solid #21b573;
+}
+/* Services section design */
+
+.services {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.services .innner-services {
+  width: 100%;
+  padding: 50px 30px;
+  background: #f8fffb;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.5s;
+  /* width: 270px; */
+  height: 270px;
+}
+.services .innner-services:hover {
+  box-shadow: 0px 20px 40px 0px #0000001a;
+}
+.services .innner-services img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.services .innner-services h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+  margin: 0;
+}
+.services .innner-services p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+  margin: 0;
+}
+
+/* Course section design */
+
+.course {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.course .title {
+  width: 100%;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.course .title h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #413960;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 0px 10px 40px 0px #0000001a;
+  border: none;
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.card-body {
+  padding: 15px 0px;
+}
+
+.card-body h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+}
+.card-body h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+
+.card-body .btn-info {
+  padding: 8px 20px;
+  background: #21b573;
+  border-radius: 33px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  border: 1px solid #21b573;
+  transition: 0.5s;
+}
+.card-body .btn-info:hover,
+.card-body .btn-info:focus {
+  border: 1px solid #21b573;
+  background: transparent;
+  color: #21b573;
+}
+
+.card-footer {
+  padding: 0;
+  background-color: transparent;
+  border-top: none;
+  margin-top: 30px;
+}
+
+.card-footer .card-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+.card-footer .card-link:hover,
+.card-footer .card-link:focus {
+  color: #282531;
+}
+
+/* Testimonial section design */
+
+.testimonial {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.testimonial .title {
+  width: 100%;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.testimonial .title h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+}
+.testimonial-img {
+  width: 100%;
+  text-align: right;
+}
+.testimonial-img img {
+  width: 120px;
+  height: 120px;
+}
+
+.testomial-content {
+  width: 100%;
+  margin-top: 20px;
+}
+.testomial-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}
+
+/* footer section design */
+
+.footer {
+  width: 100%;
+  padding: 40px 0px;
+  background: #282531;
+}
+.footer-widget {
+  width: 100%;
+  padding: 0px 0px 40px;
+}
+.footer-widget p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.footer-widget ul {
+  display: block;
+  margin-bottom: 0;
+  list-style: none;
+}
+.footer-widget .widget-heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.footer-widget ul li a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #999;
+}
+
+.footer-widget ul li a:hover,
+.footer-widget ul li a:focus {
+  color: #21b573;
+}
+
+.footer-ending {
+  width: 100%;
+  text-align: center;
+}
+.footer-ending p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
